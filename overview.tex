@@ -1,98 +1,29 @@
 \documentclass[a4paper,12pt,english]{article}
 \usepackage[english]{babel}
+\usepackage{subfiles}
 
 \begin{document}
 \setcounter{section}{1}
 %Lecture 2
 \section{Lecture 2}
-\subsection{Traffic analysis}
-%TODO
-
-\subsection{Modeling}
-%TODO
-
-\subsection{High-latency anonymous communications}
-%TODO
-
-%Lecture 3
+\subfile{subfiles/slides2.tex}
 \section{Lecture 3}
-\subsection{Trusted relays}
-\begin{itemize}
-	\item Trusted and semi-trusted relays
-	\item Anonymizer and SafeWeb
-\end{itemize}
-Centralized and trusted, vulnerable to legal attack.
-
-\subsection{Cypherpunk remailers}
-\begin{itemize}
-	\item Type I
-	\item Type II: MixMaster
-	\item Type III: MixMinion
-\end{itemize}
-
-\subsection{Onion routing/Tor}
-%TODO
+\subfile{subfiles/slides3.tex}
 
 \section{Lecture 4}
-\subsection{P2P anonymity systems}
-\begin{itemize}
-	\item DC-Nets
-	\item Crowds
-	\item Morphmix
-	\item Tarzan
-	\item Issues with P2P anonymity systems
-\end{itemize}
-
+\subfile{subfiles/slides4.tex}
 \section{Lecture 5}
-\subsection{Social privacy / Technologies}
-%TODO
-
+\subfile{subfiles/slides5.tex}
 \section{Lecture 6}
-\subsection{Database anonymization}
-\begin{itemize}
-	\item k-anonymity
-	\item l-diversity
-	\item t-closeness
-\end{itemize}
-\emph{t-closeness $>$ l-diversity $>$ k-anonymity}
-
-\subsection{Differential privacy}
-
-\subsection{De-anonymization}
+\subfile{subfiles/slides6.tex}
 
 \section{Lecture 7}
-\subsection{Obfuscation}
-\subsubsection{Private web search}
-\begin{itemize}
-	\item Query based
-	\begin{itemize}
-		\item TMN
-		\item GooPIR
-	\end{itemize}
-	\item Profile based
-	\begin{itemize}
-		\item PRAW
-		\item QF-PIR
-	\end{itemize}
-\end{itemize}
-\emph{Profile based more advanced than query based.}
-\subsubsection{Location}
+\subfile{subfiles/slides7.tex}
 
 \section{Lecture 8}
-\subsection{Privacy-preserving electronic toll pricing}
-%TODO
-
-\subsection{Private search}
-%TODO
-
-\subsection{Anonymous e-petitions}
-%TODO
+\subfile{subfiles/slides8.tex}
 
 \section{Lecture 9}
-\subsection{Legal perspective}
-%TODO
-
-\subsection{Families of privacy technologies}
-%TODO
+\subfile{subfiles/slides9.tex}
 
 \end{document}
